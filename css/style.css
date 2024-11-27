@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-dark .navbar-brand {
+    color: #ffffff !important;
+}
+.navbar-dark .nav-link {
+    color: #ffffff !important;
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
